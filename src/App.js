@@ -30,7 +30,7 @@ class App extends Component {
 		return (
 	<div className="App">
 	<h1>{this.state.sapa}</h1>
-<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Click</button>
+<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Ganti Tema</button>
 </div>
 );
 }
