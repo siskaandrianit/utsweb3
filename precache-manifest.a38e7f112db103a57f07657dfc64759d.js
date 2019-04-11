@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/utsweb3/static/js/runtime~main.0bfe0192.js"
   },
   {
-    "revision": "fd4ba7f1e3f027e63186",
+    "revision": "211b9f03432de9f0582b",
     "url": "/utsweb3/static/js/main.bebbabd2.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/utsweb3/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "fd4ba7f1e3f027e63186",
-    "url": "/utsweb3/static/css/main.6bcda59d.chunk.css"
+    "revision": "211b9f03432de9f0582b",
+    "url": "/utsweb3/static/css/main.1878c364.chunk.css"
   },
   {
-    "revision": "da5f956be046aff800d41548d4447de0",
+    "revision": "e8b61397f6dfc1da9be912533c86d8a2",
     "url": "/utsweb3/index.html"
   }
 ];

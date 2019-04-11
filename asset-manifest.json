@@ -1,5 +1,5 @@
 {
-  "main.css": "/utsweb3/static/css/main.6bcda59d.chunk.css",
+  "main.css": "/utsweb3/static/css/main.1878c364.chunk.css",
   "main.js": "/utsweb3/static/js/main.bebbabd2.chunk.js",
   "main.js.map": "/utsweb3/static/js/main.bebbabd2.chunk.js.map",
   "runtime~main.js": "/utsweb3/static/js/runtime~main.0bfe0192.js",
@@ -7,7 +7,7 @@
   "static/js/2.d6a534e5.chunk.js": "/utsweb3/static/js/2.d6a534e5.chunk.js",
   "static/js/2.d6a534e5.chunk.js.map": "/utsweb3/static/js/2.d6a534e5.chunk.js.map",
   "index.html": "/utsweb3/index.html",
-  "precache-manifest.4ddd6f7ce00e40d49af9951aba9589d4.js": "/utsweb3/precache-manifest.4ddd6f7ce00e40d49af9951aba9589d4.js",
+  "precache-manifest.a38e7f112db103a57f07657dfc64759d.js": "/utsweb3/precache-manifest.a38e7f112db103a57f07657dfc64759d.js",
   "service-worker.js": "/utsweb3/service-worker.js",
-  "static/css/main.6bcda59d.chunk.css.map": "/utsweb3/static/css/main.6bcda59d.chunk.css.map"
+  "static/css/main.1878c364.chunk.css.map": "/utsweb3/static/css/main.1878c364.chunk.css.map"
 }
