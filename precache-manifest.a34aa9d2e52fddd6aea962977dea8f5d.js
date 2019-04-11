@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/utsweb3/static/js/runtime~main.0bfe0192.js"
   },
   {
-    "revision": "2e3a9fa8da728227aa17",
-    "url": "/utsweb3/static/js/main.3001b65e.chunk.js"
+    "revision": "0fe959dcc06459f8e427",
+    "url": "/utsweb3/static/js/main.a43d4268.chunk.js"
   },
   {
     "revision": "681b51057d74cfa8975d",
     "url": "/utsweb3/static/js/2.65aa1cca.chunk.js"
   },
   {
-    "revision": "2e3a9fa8da728227aa17",
+    "revision": "0fe959dcc06459f8e427",
     "url": "/utsweb3/static/css/main.6bcda59d.chunk.css"
   },
   {
-    "revision": "b830f0f6b6e8eae791cbc1aebdd435c7",
+    "revision": "4f8b701a5e60817313aa0bc9ebfc6d82",
     "url": "/utsweb3/index.html"
   }
 ];
