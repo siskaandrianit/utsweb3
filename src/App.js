@@ -3,44 +3,37 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-	constructor(props) {
+	constructor(props){
 		super(props);
-		
-		this.state = {
-			color: 'hitam',
-			title:'Gelap',
-		};
+	this.state = {
+		sapa : 'Ganti Tema'
 	}
-	clicked(menu) {
-		this.setState({
-		color:menu.color,
-		img:menu.img,
-		title:menu.title,
-		});
+	} 
+	clicked = () => {
+	if(this.state.sapa === ':*'){
+	console.log("tru :*");
+	this.setState(
+	{
+	sapa : 'Theme Light'
 	}
-  render() {
-    return (
-     <div id="app">
-			<nav className="nav">{ this.props.items.map(( menu, index) => {
-				var style = 'menu';
-				
-				if (this.state.color === menu.color) {
-					style = `${style} is-active`;
-				}
-				
-				return <a
-					className={style+" "+menu.color}
-					
-					onClick={this.clicked.bind(this,menu)}
-					key={index}
-				>
-					{menu.title}
-				</a>;
-			} ) }
-			</nav>
-      </div>
-    );
-  }
-}
+	);
+			} else{
+		this.setState(
+		{
+		sapa : 'Theme Dark'
+		}
+		);
+	}
+
+	}
+		render() {
+		return (
+	<div className="App">
+		<h1>{this.state.sapa}</h1>
+		<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Click</button>
+	</div>
+	);
+	}
+	}
 
 export default App;
