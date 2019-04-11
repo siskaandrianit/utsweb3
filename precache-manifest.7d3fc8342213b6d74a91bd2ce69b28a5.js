@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/utsweb3/static/css/main.1878c364.chunk.css"
   },
   {
-    "revision": "e8b61397f6dfc1da9be912533c86d8a2",
+    "revision": "ca10b1812e694f5498e9df27005ffffa",
     "url": "/utsweb3/index.html"
   }
 ];
