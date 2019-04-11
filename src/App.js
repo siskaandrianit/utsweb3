@@ -6,7 +6,7 @@ class App extends Component {
 	constructor(props){
 		super(props);
 	this.state = {
-		sapa : 'Ganti Tema'
+		sapa : 'Hallo'
 	}
 	} 
 	clicked = () => {
@@ -14,13 +14,13 @@ class App extends Component {
 	console.log("tru :*");
 	this.setState(
 	{
-	sapa : 'Theme Light'
+	sapa : ':V'
 	}
 	);
 			} else{
 		this.setState(
 		{
-		sapa : 'Theme Dark'
+		sapa : ':*'
 		}
 		);
 	}
@@ -29,11 +29,11 @@ class App extends Component {
 		render() {
 		return (
 	<div className="App">
-		<h1>{this.state.sapa}</h1>
-		<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Click</button>
-	</div>
-	);
-	}
-	}
+	<h1>{this.state.sapa}</h1>
+<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Click</button>
+</div>
+);
+}
+}
 
 export default App;
