@@ -10,17 +10,17 @@ class App extends Component {
 	}
 	} 
 	clicked = () => {
-	if(this.state.sapa === ':*'){
-	console.log("tru :*");
+	if(this.state.sapa === 'Theme Light'){
+	console.log("tru Theme Light");
 	this.setState(
 	{
-	sapa : ':V'
+	sapa : 'Theme Dark'
 	}
 	);
 			} else{
 		this.setState(
 		{
-		sapa : ':*'
+		sapa : 'Theme Light'
 		}
 		);
 	}
@@ -30,7 +30,7 @@ class App extends Component {
 		return (
 	<div className="App">
 	<h1>{this.state.sapa}</h1>
-<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Ganti Tema</button>
+<button className="btn btn-primary btn-lg active" aria-pressed="true" onClick={this.clicked}>Ganti</button>
 </div>
 );
 }
